@@ -4,7 +4,7 @@ const router = express.Router();
 router.get('/tweets', (req, res) => {
     const str = [{
         "name": "Carlos",
-        "msg": "Qualquer mensagem do Carlos que seja mais legal do que um elefante voando no céu da amazõnia",
+        "msg": "You are of the size your Dream",
         "username": "carlos123"
     }];
     res.end(JSON.stringify(str));
